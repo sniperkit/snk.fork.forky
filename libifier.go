@@ -1,3 +1,9 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-12 12:10:37.260047971 +0200 CEST m=+0.036355412
+- Status: analyzed
+*/
+
 package forky
 
 import (

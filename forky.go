@@ -1,3 +1,9 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-12 12:10:37.260047971 +0200 CEST m=+0.036355412
+- Status: analyzed
+*/
+
 package forky
 
 import (
@@ -16,8 +22,6 @@ import (
 	"strconv"
 	"strings"
 
-	"honnef.co/go/tools/ssa"
-
 	"github.com/dave/services/fsutil"
 	"golang.org/x/tools/go/ast/astutil"
 	"golang.org/x/tools/go/loader"
@@ -26,6 +30,7 @@ import (
 	"gopkg.in/src-d/go-billy.v4/helper/polyfill"
 	"gopkg.in/src-d/go-billy.v4/memfs"
 	"gopkg.in/src-d/go-billy.v4/osfs"
+	"honnef.co/go/tools/ssa"
 )
 
 type Session struct {
